@@ -6,9 +6,9 @@ contatos = {
 }
 
 for chave in contatos:
-    print(chave, contatos[chave])
+    print(chave, contatos[chave])       #é necessário colocar o nome do dicionario para que os valores de cada ninho seja retornado, senão ele retorna somente a chave
 
 print("=" * 100)
 
 for chave, valor in contatos.items():
-    print(chave, valor)
+    print(chave, valor)                 # fazendo dessa forma teremos o mesmo resultado

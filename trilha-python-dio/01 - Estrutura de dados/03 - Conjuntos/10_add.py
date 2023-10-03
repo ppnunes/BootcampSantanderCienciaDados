@@ -1,3 +1,5 @@
+# adiciona um elemento se ele não exixteir no conjunto
+
 sorteio = {1, 23}
 
 sorteio.add(25)  # {1, 23, 25}
